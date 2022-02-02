@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ form</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+    <script src="index.js"> </script>
+
+    <header class="head">
+        <h1>Multiple Choice Questions</h1>
+    </header>
+
+    <!--/qestions-->
+        <form id="quiz" name="quiz">
+            <div>
+               <h3> Q1.Who is the Father of the Nation ? </h3>
+               <p><input type="radio" name="qestion1" value="Mahatma Gandhi">Mahatma Gandhi</p>
+               <p><input type="radio" name="qestion1" value="Pushpa Raj">Pushpa Raj</p>
+               <p><input type="radio" name="qestion1" value="Rahul Gandhi">Rahul Gandhi</p>
+               <p><input type="radio" name="qestion1" value="Subash Chandra Bose">Subash Chandra Bose</p>
+            </div>
+
+            <div>
+                <h3>Q2.Capital of Telangana?</h3>
+                <p><input type="radio" name="qestion2" value="Mysore">Mysore</p>
+                <p><input type="radio" name="qestion2" value="Hyderabad">Hyderabad</p>
+                <p><input type="radio" name="qestion2" value="Manali">Manali</p>
+                <p><input type="radio" name="qestion2" value="Banglore">Banglore</p>
+             </div>
+
+             <div>
+                <h3> Q3.HTML stands for ?</h3>
+                <p><input type="radio" name="qestion3" value="Hydro transfer mail location">Hydro transfer mail location</p>
+                <p><input type="radio" name="qestion3" value="Hetro transmission milage list">Hetro transmission milage list</p>
+                <p><input type="radio" name="qestion3" value="Hyper text markup language">Hyper text markup language</p>
+                <p><input type="radio" name="qestion4" value="Hindustan transmission money loss">Hindustan transmission money loss</p>
+             </div>
+
+             <div>
+                <h3>Q4.Who directed the movie Baahubali ?</h3>
+                <p><input type="radio"  name="qestion4" value="Karan johar">Karan johar</p>
+                <p><input type="radio"   name="qestion4" value="Puri">Puri</p>
+                <p><input type="radio"   name="qestion4" value="MM.Keeravani">MM.Keeravani</p>
+                <p><input type="radio"   name="qestion4" value="SS.Rajamouli">SS.Rajamouli</p>
+             </div>
+
+             <div>
+                <h3>Q5.How many items is equal to 1 dozen ?</h3>
+                <p><input type="radio"  name="qestion5" value="Twelve">Twelve</p>
+                <p><input type="radio"  name="qestion5" value="Eleven">Eleven</p>
+                <p><input type="radio"  name="qestion5" value="Thirteen">Thirteen</p>
+                <p><input type="radio"  name="qestion5" value="Fourteen">Fourteen</p>
+             </div>
+
+             <footer>
+               <input type="button" id="button" value="Submit" onclick="check()">
+            </footer>
+        </form>
+
+        <div>
+            <h3 id="finalcall"></h3>
+            <p id="result">
+            </p>
+
+        </div>
+   
+</body>
+</html>
